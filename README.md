@@ -147,7 +147,7 @@ Se você já tem um arquivo FDB existente ou deseja criar do zero:
 
 1. Abra o **Firebird isql** ou uma ferramenta SQL compatible (como DBeaver, HeidiSQL ou IBExpert)
 2. Conecte ao servidor Firebird
-3. Execute o script SQL localizado em `Database\CreateSchema.sql`
+3. Execute o script SQL localizado em `Database\script_geracao_sql.sql`
 4. O banco será criado automaticamente com tabelas e dados iniciais
 
 ### Opção 2: Usando Ferramentas Visuais
@@ -155,13 +155,13 @@ Se você já tem um arquivo FDB existente ou deseja criar do zero:
 **Com DBeaver (Recomendado):**
 1. Baixe e instale o [DBeaver Community](https://dbeaver.io/)
 2. Crie uma nova conexão Firebird apontando para `C:\PostoABC\PostoABC.fdb`
-3. Abra o arquivo `Database\CreateSchema.sql`
+3. Abra o arquivo `Database\script_geracao_sql.sql`
 4. Execute o script (Ctrl + Enter)
 
 **Com IBExpert:**
 1. Abra o IBExpert
 2. Crie um novo database em `C:\PostoABC\PostoABC.fdb`
-3. Abra e execute o script `Database\CreateSchema.sql`
+3. Abra e execute o script `Database\script_geracao_sql.sql`
 
 ### Opção 3: Linha de Comando (isql)
 
@@ -169,7 +169,7 @@ Se você já tem um arquivo FDB existente ou deseja criar do zero:
 isql -u SYSDBA -p masterkey
 CREATE DATABASE 'C:\PostoABC\PostoABC.fdb';
 -- Depois, execute o script:
-INPUT Database\CreateSchema.sql;
+INPUT Database\script_geracao_sql.sql;
 ```
 
 ### Verificando a Criação

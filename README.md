@@ -236,3 +236,24 @@ O projeto utiliza um banco de dados Firebird localizado em:
 2. **Repository Pattern**: Camada de acesso a dados
 3. **MVC**: Separação de responsabilidades
 4. **Dependency Injection**: Repositórios injetados nos controllers
+## Tela de Abastecimento
+****<img width="957" height="665" alt="image" src="https://github.com/user-attachments/assets/990942c2-aa84-4ad4-8c11-bb5490d3a3a5" />
+
+## Tela de Cadastro de Tanques
+<img width="878" height="578" alt="image" src="https://github.com/user-attachments/assets/a1250dd4-74f4-47cd-82a6-221f19752d96" />
+
+## Tela de Cadastro de Bombas 
+<img width="913" height="581" alt="image" src="https://github.com/user-attachments/assets/e683e37f-a7f0-4dd2-9cbc-374edf0aaa2f" />
+
+## Tela de Relatório 
+<img width="906" height="628" alt="image" src="https://github.com/user-attachments/assets/6e746129-4ec0-4df2-b6a7-48f057a54a5d" />
+
+## Relatório gerado 
+<img width="1034" height="1017" alt="image" src="https://github.com/user-attachments/assets/44e5c60c-3985-4adb-b4dc-f882fa3da940" />
+
+
+
+
+
+
+

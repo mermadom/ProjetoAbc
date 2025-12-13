@@ -249,7 +249,8 @@ O projeto utiliza um banco de dados Firebird localizado em:
 <img width="906" height="628" alt="image" src="https://github.com/user-attachments/assets/6e746129-4ec0-4df2-b6a7-48f057a54a5d" />
 
 ## Relatório gerado 
-<img width="1034" height="1017" alt="image" src="https://github.com/user-attachments/assets/44e5c60c-3985-4adb-b4dc-f882fa3da940" />
+<img width="905" height="426" alt="image" src="https://github.com/user-attachments/assets/721d20c2-5b26-44e6-b445-6211dd79ee63" />
+
 
 
 

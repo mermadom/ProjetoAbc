@@ -100,10 +100,17 @@ object AbastecimentoReportForm: TAbastecimentoReportForm
         Height = 35
         BandType = btColumnHeader
         object RLLabel_ColData: TRLLabel
-          Left = 3
-          Top = 12
-          Width = 62
-          Height = 20
+          Left = 0
+          Top = 0
+          Width = 73
+          Height = 35
+          Align = faLeft
+          AutoSize = False
+          Borders.Sides = sdCustom
+          Borders.DrawLeft = True
+          Borders.DrawTop = True
+          Borders.DrawRight = True
+          Borders.DrawBottom = True
           Caption = 'DATA'
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -114,10 +121,17 @@ object AbastecimentoReportForm: TAbastecimentoReportForm
         end
         object RLLabel_ColTanque: TRLLabel
           Left = 73
-          Top = 12
-          Width = 79
-          Height = 20
+          Top = 0
+          Width = 96
+          Height = 35
+          Align = faLeft
           Alignment = taRightJustify
+          AutoSize = False
+          Borders.Sides = sdCustom
+          Borders.DrawLeft = True
+          Borders.DrawTop = True
+          Borders.DrawRight = True
+          Borders.DrawBottom = True
           Caption = 'TANQUE'
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -127,11 +141,18 @@ object AbastecimentoReportForm: TAbastecimentoReportForm
           ParentFont = False
         end
         object RLLabel_ColBomba: TRLLabel
-          Left = 159
-          Top = 12
-          Width = 58
-          Height = 22
+          Left = 169
+          Top = 0
+          Width = 68
+          Height = 35
+          Align = faLeft
           Alignment = taRightJustify
+          AutoSize = False
+          Borders.Sides = sdCustom
+          Borders.DrawLeft = True
+          Borders.DrawTop = True
+          Borders.DrawRight = True
+          Borders.DrawBottom = True
           Caption = 'BOMBA'
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -141,11 +162,18 @@ object AbastecimentoReportForm: TAbastecimentoReportForm
           ParentFont = False
         end
         object RLLabel_ColLitros: TRLLabel
-          Left = 222
-          Top = 12
-          Width = 80
-          Height = 20
+          Left = 237
+          Top = 0
+          Width = 77
+          Height = 35
+          Align = faLeft
           Alignment = taRightJustify
+          AutoSize = False
+          Borders.Sides = sdCustom
+          Borders.DrawLeft = True
+          Borders.DrawTop = True
+          Borders.DrawRight = True
+          Borders.DrawBottom = True
           Caption = 'LITROS'
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -155,11 +183,18 @@ object AbastecimentoReportForm: TAbastecimentoReportForm
           ParentFont = False
         end
         object RLLabel_ColValorTotal: TRLLabel
-          Left = 306
-          Top = 12
-          Width = 99
-          Height = 21
+          Left = 314
+          Top = 0
+          Width = 105
+          Height = 35
+          Align = faLeft
           Alignment = taRightJustify
+          AutoSize = False
+          Borders.Sides = sdCustom
+          Borders.DrawLeft = True
+          Borders.DrawTop = True
+          Borders.DrawRight = True
+          Borders.DrawBottom = True
           Caption = 'TOTAL'
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -169,11 +204,18 @@ object AbastecimentoReportForm: TAbastecimentoReportForm
           ParentFont = False
         end
         object RLLabel_ColValorImposto: TRLLabel
-          Left = 524
-          Top = 12
-          Width = 148
-          Height = 20
+          Left = 517
+          Top = 0
+          Width = 165
+          Height = 35
+          Align = faLeft
           Alignment = taRightJustify
+          AutoSize = False
+          Borders.Sides = sdCustom
+          Borders.DrawLeft = True
+          Borders.DrawTop = True
+          Borders.DrawRight = True
+          Borders.DrawBottom = True
           Caption = 'TOTAL C/ IMPOSTO'
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -183,11 +225,18 @@ object AbastecimentoReportForm: TAbastecimentoReportForm
           ParentFont = False
         end
         object RLLabel_ColImposto: TRLLabel
-          Left = 411
-          Top = 11
-          Width = 107
-          Height = 21
+          Left = 419
+          Top = 0
+          Width = 98
+          Height = 35
+          Align = faLeft
           Alignment = taRightJustify
+          AutoSize = False
+          Borders.Sides = sdCustom
+          Borders.DrawLeft = True
+          Borders.DrawTop = True
+          Borders.DrawRight = True
+          Borders.DrawBottom = True
           Caption = 'IMPOSTO'
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -204,68 +253,117 @@ object AbastecimentoReportForm: TAbastecimentoReportForm
         Height = 25
         BeforePrint = RLBand_DetailBeforePrint
         object RLDBText_Data: TRLDBText
-          Left = 6
-          Top = 5
-          Width = 59
-          Height = 20
+          Left = 0
+          Top = 0
+          Width = 73
+          Height = 25
+          Align = faLeft
+          AutoSize = False
+          Borders.Sides = sdCustom
+          Borders.DrawLeft = True
+          Borders.DrawTop = True
+          Borders.DrawRight = True
+          Borders.DrawBottom = True
           DataField = 'DataAbastecimento'
           DisplayMask = 'dd/mm/yyyy'
           Text = ''
         end
         object RLDBText_Tanque: TRLDBText
           Left = 73
-          Top = 5
-          Width = 79
-          Height = 20
+          Top = 0
+          Width = 96
+          Height = 25
+          Align = faLeft
           Alignment = taRightJustify
+          AutoSize = False
+          Borders.Sides = sdCustom
+          Borders.DrawLeft = True
+          Borders.DrawTop = True
+          Borders.DrawRight = True
+          Borders.DrawBottom = True
           DataField = 'TipoCombustivel'
           Text = ''
         end
         object RLDBText_Bomba: TRLDBText
-          Left = 160
-          Top = 5
-          Width = 58
-          Height = 20
+          Left = 169
+          Top = 0
+          Width = 68
+          Height = 25
+          Align = faLeft
           Alignment = taRightJustify
+          AutoSize = False
+          Borders.Sides = sdCustom
+          Borders.DrawLeft = True
+          Borders.DrawTop = True
+          Borders.DrawRight = True
+          Borders.DrawBottom = True
           DataField = 'Bomba'
           Text = ''
         end
         object RLDBText_Litros: TRLDBText
-          Left = 224
-          Top = 5
-          Width = 80
-          Height = 20
+          Left = 237
+          Top = 0
+          Width = 77
+          Height = 25
+          Align = faLeft
           Alignment = taRightJustify
+          AutoSize = False
+          Borders.Sides = sdCustom
+          Borders.DrawLeft = True
+          Borders.DrawTop = True
+          Borders.DrawRight = True
+          Borders.DrawBottom = True
           DataField = 'Litros'
           DisplayMask = '0.00'
           Text = ''
         end
         object RLDBText_ValorTotal: TRLDBText
-          Left = 308
-          Top = 5
-          Width = 99
-          Height = 20
+          Left = 314
+          Top = 0
+          Width = 105
+          Height = 25
+          Align = faLeft
           Alignment = taRightJustify
+          AutoSize = False
+          Borders.Sides = sdCustom
+          Borders.DrawLeft = True
+          Borders.DrawTop = True
+          Borders.DrawRight = True
+          Borders.DrawBottom = True
           DataField = 'ValorTotal'
           DisplayMask = 'R$#,##0.00'
           Text = ''
         end
         object RLDBText_ValorImposto: TRLDBText
-          Left = 413
-          Top = 5
-          Width = 107
-          Height = 20
+          Left = 419
+          Top = 0
+          Width = 98
+          Height = 25
+          Align = faLeft
           Alignment = taRightJustify
+          AutoSize = False
+          Borders.Sides = sdCustom
+          Borders.DrawLeft = True
+          Borders.DrawTop = True
+          Borders.DrawRight = True
+          Borders.DrawBottom = True
           DataField = 'Imposto'
           DisplayMask = 'R$#,##0.00'
           Text = ''
         end
         object RLDBText_ValorComImposto: TRLDBText
-          Left = 526
-          Top = 5
-          Width = 148
-          Height = 20
+          Left = 517
+          Top = 0
+          Width = 164
+          Height = 25
+          Align = faLeft
           Alignment = taRightJustify
+          AutoSize = False
+          Borders.Sides = sdCustom
+          Borders.DrawLeft = True
+          Borders.DrawTop = True
+          Borders.DrawRight = True
+          Borders.DrawBottom = True
           DataField = 'ValorComImposto'
           DisplayMask = 'R$#,##0.00'
           Text = ''
@@ -278,10 +376,18 @@ object AbastecimentoReportForm: TAbastecimentoReportForm
         Height = 50
         BandType = btSummary
         object RLLabel_TotalLabel: TRLLabel
-          Left = 221
-          Top = 15
-          Width = 81
-          Height = 16
+          Left = 0
+          Top = 0
+          Width = 314
+          Height = 50
+          Align = faLeft
+          Alignment = taRightJustify
+          AutoSize = False
+          Borders.Sides = sdCustom
+          Borders.DrawLeft = True
+          Borders.DrawTop = True
+          Borders.DrawRight = True
+          Borders.DrawBottom = True
           Caption = 'Valor Total: '
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -291,25 +397,46 @@ object AbastecimentoReportForm: TAbastecimentoReportForm
           ParentFont = False
         end
         object RlLabelTotal: TRLLabel
-          Left = 308
-          Top = 16
-          Width = 99
-          Height = 16
+          Left = 314
+          Top = 0
+          Width = 105
+          Height = 50
+          Align = faLeft
           Alignment = taRightJustify
+          AutoSize = False
+          Borders.Sides = sdCustom
+          Borders.DrawLeft = True
+          Borders.DrawTop = True
+          Borders.DrawRight = True
+          Borders.DrawBottom = True
         end
         object RLLabelTotalImposto: TRLLabel
-          Left = 413
-          Top = 16
-          Width = 107
-          Height = 16
+          Left = 419
+          Top = 0
+          Width = 98
+          Height = 50
+          Align = faLeft
           Alignment = taRightJustify
+          AutoSize = False
+          Borders.Sides = sdCustom
+          Borders.DrawLeft = True
+          Borders.DrawTop = True
+          Borders.DrawRight = True
+          Borders.DrawBottom = True
         end
         object RLLabelTotalComImposto: TRLLabel
-          Left = 526
-          Top = 16
-          Width = 148
-          Height = 16
+          Left = 517
+          Top = 0
+          Width = 164
+          Height = 50
+          Align = faLeft
           Alignment = taRightJustify
+          AutoSize = False
+          Borders.Sides = sdCustom
+          Borders.DrawLeft = True
+          Borders.DrawTop = True
+          Borders.DrawRight = True
+          Borders.DrawBottom = True
           Caption = 'RLLabelTotalImposto'
         end
       end
